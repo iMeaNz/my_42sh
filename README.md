@@ -17,7 +17,7 @@
         <li>
             <a href="#content-of-the-project">Content of the project</a>
             <ul>
-                <li><a href="#main-feature">Main features</a></li>
+                <li><a href="#main-features">Main features</a></li>
             </ul>
         </li>
         <li>
