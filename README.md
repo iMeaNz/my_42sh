@@ -2,8 +2,8 @@
 <br />
 <div align="center">
 
-  <h1 align="center">42sh</h1>
-  <h3 align="center">A homemade shell</h3>
+  <h1 align="center">my_42sh</h1>
+  <h3 align="center">A better homemade shell</h3>
 
 </div>
 
@@ -13,16 +13,15 @@
     <ol>
         <li>
             <a href="#about-the-project">About The Project</a>
+        </li>
+        <li>
+            <a href="#content-of-the-project">Content of the project</a>
             <ul>
-                <li><a href="#Mandatory section">Mandatory section</a></li>
-                <li><a href="#Optional section">Optional section</a></li>
+                <li><a href="#main-feature">Main features</a></li>
             </ul>
         </li>
         <li>
             <a href="#getting-started">Getting Started</a>
-            <ul>
-                <li><a href="#installation">Installation</a></li>
-            </ul>
         </li>
     </ol>
 </details>
@@ -38,7 +37,7 @@ I'm still fairly new to system programming, so probably a lot of my code could b
 ## Content of the project
 This project is still a work in progress, and a lot of the features listed below have already been implemented in my previous project, but i'm trying to reimplement them in a better way  
 (If you wish to check the project on wich this one is based, check this [repository](https://github.com/iMeaNz/42sh))
-## Main features
+### Main features
 - Spaces and tabulations ❌
 - $PATH and environnement handling ❌
 - Errors and return value ❌
