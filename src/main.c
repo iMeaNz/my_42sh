@@ -11,6 +11,7 @@
 #include <stdint.h>
 
 void raw_parser(sh_data_t *sh);
+void sig_handler(void);
 
 sh_data_t init_shell(char **env)
 {
@@ -37,6 +38,8 @@ int main(int argc, __attribute__((unused))char **argv, char **env)
         return 84;
     }
     sh_data_t shell = init_shell(env);
+    sig_handler();
     raw_parser(&shell);
+    free(shell.envp);
     return 0;
 }
