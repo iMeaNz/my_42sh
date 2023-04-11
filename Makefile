@@ -10,7 +10,8 @@ OBJ1 := main.o \
 		parser/raw_parser.o \
 		terminal/arrows.o \
 		terminal/cursor_pos.o \
-		terminal/delete.o
+		terminal/delete.o \
+		execution/signals.o
 
 C_FLAGS := -Wall -Wextra -g
 CC := gcc
