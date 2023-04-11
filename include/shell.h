@@ -72,7 +72,7 @@
         bool is_prompt_mode;
         bool execute_binary;
         linked_list_t *suspended_command;
-        command_t *current_command;
+        command_t **current_command;
     } sh_data_t;
 
     typedef struct {
